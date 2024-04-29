@@ -1,0 +1,451 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: none;
+}
+.container{
+    /* background-color: rgb(30, 31, 30); */
+}
+    
+#home{
+    background-image:url(css/imges/asset\ 11.jpeg);
+    background-size: 100% 100%;
+    height: 100vh;
+}
+.black{
+    background-color: #00000091;
+    height:100%;
+    /* width: 100%; */
+}
+.caption-par{
+        /* background-color: #198754; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    width: 100%;
+    height: 100vh;
+}
+.caption{
+    text-align: center;
+}
+.caption h2::after{
+    content: "|";
+    animation-name: typing; 
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes typing{
+    0%{content:'D|'}
+    1.3%{content:'De|'}
+    2.6%{content:'Dev|'}
+    3.9%{content:'Deve|'}
+    5.2%{content:'Devel|'}
+    6.4%{content:'Develo|'}
+    7.7%{content:'Develop|'}
+    9%{content:'Develope|'}
+    10.3%{content:'Developer|'}
+    11.6%{content:'Develope|'}
+    12.9%{content:'Develop|'}
+    14.2%{content:'Develo|'}
+    15.5%{content:'Devel|'}
+    16.8%{content:'Deve|'}
+    18.1%{content:'Dev|'}
+    19.4%{content:'De|'}
+    20.7%{content:'D|'}
+    22%{content:'|'}
+    23.3%{content:'D|'}
+    24.6%{content:'De|'}
+    25.9%{content:'Des|'}
+    27.2%{content:'Desi|'}
+    28.5%{content:'Desig|'}
+    29.8%{content:'Design|'}
+    31.1%{content:'Designe|'}
+    32.4%{content:'Designer|'}
+    33.7%{content:'Designe|'}
+    35%{content:'Design|'}
+    36.3%{content:'Desig|'}
+    37.6%{content:'Desi|'}
+    38.9%{content:'Des|'}
+    40.2%{content:'D|'}
+    41.5%{content:'|'}
+    42.8%{content:'F|'}
+    44.1%{content:'Fr|'}
+    45.4%{content:'Fre|'}
+    46.7%{content:'Free|'}
+    48%{content:'Freel|'}
+    49.3%{content:'Freela|'}
+    50.6%{content:'Freelan|'}
+    51.9%{content:'Freelanc|'}
+    53.2%{content:'Freelance|'}
+    54.5%{content:'Freelancer|'}
+    55.8%{content:'Freelance|'}
+    57.1%{content:'Freelanc|'}
+    58.4%{content:'Freelan|'}
+    59.7%{content:'Freela|'}
+    61%{content:'Freel|'}
+    62.3%{content:'Free|'}
+    63.6%{content:'Fre|'}
+    64.9%{content:'Fr|'}
+    66.2%{content:'F|'}
+    67.5%{content:'|'}
+    68.8%{content:'P|'}
+    70.1%{content:'Ph|'}
+    71.4%{content:'Pho|'}
+    72.7%{content:'Phot|'}
+    74%{content:'Photo|'}
+    75.3%{content:'Photog|'}
+    76.6%{content:'Photogr|'}
+    77.9%{content:'Photogra|'}
+    79.2%{content:'Photograp|'}
+    80.5%{content:'Photograph|'}
+    81.8%{content:'Photographe|'}
+    83.1%{content:'Photographer|'}
+    84.4%{content:'Photographe|'}
+    85.7%{content:'Photograph|'}
+    87%{content:'Photograp|'}
+    88.3%{content:'Photogra|'}
+    89.6%{content:'Photogr|'}
+    90.9%{content:'Photog|'}
+    92.2%{content:'Photo|'}
+    93.5%{content:'Phot|'}
+    94.8%{content:'Pho|'}
+    96.1%{content:'Ph|'}
+    97.4%{content:'P|'}
+    98.8%{content:'|'}
+}
+
+.caption h1{
+    font-size: 70px;
+}
+
+
+.progress-bar{ 
+    /* background-color: #198754; */
+}
+.about-info h6{
+    margin: 10px 0px;
+}
+.about-prg{
+    margin-top:10px ;
+}
+.cap{
+    width: 100%;
+    height: 100vh;
+     background-image: url(css/img/slideshow-3.jpg); 
+    background-size: cover;
+    background-position: center center;
+} 
+.cap1{
+    width: 100%;
+    height: 100vh;
+     background-image: url(css/img/slideshow-2.jpg); 
+    background-size: cover;
+    background-position: center center;
+} 
+.cap2{
+    width: 100%;
+    height: 100vh;
+     background-image: url(css/img/slideshow-1.jpg); 
+    background-size: cover;
+    background-position: center center;
+} 
+.cap-info h1{
+    font-size: 40px;
+    font-weight: 900;
+    color: #fff;
+}
+.cap-info {
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ Nav a{
+    color: #fff !important;
+    cursor: pointer;
+    z-index: 999;
+}
+.navbar{
+    background-color:rgba(0,0, 0, .6); 
+    /* background-color: #198754; */
+     padding: 15px 0px; 
+ } 
+ Nav a:hover{ 
+     color: red !important; 
+ } 
+ 
+
+
+/*--------- section about------ */
+.color{
+    background-color: #ffffff;
+    border: none;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    /* gap: 80p */
+}
+span{
+    font-size: 22px;
+}
+.empty{
+    width: 100px;
+    height: 3px;
+    background-color: #0D6EFD;
+}
+.empty1{
+    width: 50px;
+    height: 3px;
+    background-color: #0D6EFD;
+}
+.paragraphe p{
+    line-height:37px;
+    color: gray;
+    
+}
+body{
+    /* background-color: #0D6EFD; */
+}
+
+/* --------------end about------------ */
+
+/* -----start section team------- */
+.div i{
+    font-size: 40px;
+    border: 8px solid #0078ff;
+    transition: all .5s;
+}
+.div i:hover{
+    color: #fff;
+    background-color: #0078ff;
+    border: 8px solid #add3ff;
+}
+.div{
+    background-color: #ffffff;
+    margin: 22px 0px;
+    display: inline-block;
+    border: 4px solid white; /* تحديد لون وعرض البوردر */
+    border-radius: 10px; /* جعل الزاويا أكثر دوّارة */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* إضافة تأثير ظل */
+}
+.wid{
+    font-weight: 800;
+}
+.container-fluid {
+    background-image:url(css/imges/asset\ 10.jpeg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 400px;
+    /* position: relative; */
+}
+.container-fluid1 {
+    background-image:url(css/imges/asset\ 12.jpeg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 600px;
+    /* position: relative; */
+}
+.same{
+    position: relative;
+}
+
+.parent{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0078ffa9;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+.carousel{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0078ffa9;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    /* padding: 30px 0px; */
+}
+/* .container1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #0078ffa9;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    /* padding: 30px 0px; */
+
+
+
+.child{
+    color: #fff;
+}
+.child p{
+    font-size: 20px;
+}
+.child i{
+    font-size: 40px;
+    border: 8px solid #ffff;
+    /* transition: all .5s; */
+    background-color: transparent;
+}
+/* --------------portfolio--------------- */
+
+.port-img{
+    background-color: #fff; 
+    border-radius: 0px; 
+    box-shadow: 0 0 0px rgba(0, 0, 0, 0.2); 
+  }
+  .port1 i{
+    font-size: 30px;
+    
+    color: #0078ff;
+    padding: 7px;
+    border-radius: 50%;
+    border: 8px solid #0078ff;
+    /* transition: all .5s; */
+}
+
+ .div1{
+    background-color: #ffffff;
+    margin: 22px 0px;
+    border-radius: 5px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+    overflow: hidden;
+} 
+.span1{
+    color: #0078ff;
+    font-size: 17px;
+}
+.div1:hover img{
+    transform: scale(1.2);  
+}
+
+.div1 img{
+    transition: all .7s;
+}
+/* -------end portfolio----------- */
+
+.client img{
+    height: 150px; /* قم بتعيين ارتفاع الصورة */
+      border-radius: 50%; /* جعل الصورة دائرية */
+    overflow: hidden;
+}
+.client h4{
+    color: #fff;
+}
+.client p{
+    color: #fff;
+}
+/* ---------------end portfolio-------------- */
+
+/* ------------------start Blog--------- */
+.card img{
+    width: 100%;
+    
+}
+.img-container img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.card{
+    position: relative;
+    border-radius: 10px; /* جعل الزاويا أكثر دوّارة */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    
+}
+.button{
+    position: absolute;
+    left: 44%;
+    top: 55%;
+    border-radius: 10%;
+    padding: 2px 4px;
+    color: #ffff;
+    font-size: 14px;
+}
+a span{
+    font-size: 16px;
+}
+.date span{
+    font-size: 16px;
+}
+/* ----------end Blog------------ */
+
+
+.container-fluid2{
+    height: 90vh;
+    background-image: url(css/imges/asset\ 12.jpeg);
+    background-size:cover ;
+    background-attachment: fixed;
+}
+.insid{
+    background-color: #0078ffa9;
+    width: 100%;
+    height: 90vh;
+    /* position: relative; */
+}
+
+.icon {
+    color: #0078ff;
+}
+.icon span {
+    margin: 3px 0px;
+}
+/* إزالة النقاط السوداء من قائمة ul */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.socila-media a{
+    border-radius: 50%;
+    border: 2px solid #0078ff;
+    transition: all .5s;
+}
+
+.socila-media a:hover{
+    transform: scale(.9);  
+    border: 2px solid #b4adad;
+  }
+  
+.icon1 {
+    color: #000;
+    transition: all .5s;
+}
+.icon1:hover {
+    color: #fff;
+    background-color: #0078ff;
+}
+body{
+    background-color: #b4adad;
+}
+@media (max-width: 450px){ 
+    .parent{
+        flex-direction: column;
+        padding: 20px 0px;
+    }
+    
+}
+@media (max-width: 768px){ 
+    
+    
+    
+
+}
+
+@media (max-width: 991px){
+
+
+}
+
